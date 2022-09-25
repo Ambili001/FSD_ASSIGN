@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+        font-family: Georgia, 'Times New Roman', Times, serif;       
+    }
+.nav-item {
+    padding-left: 50px;
+    text-decoration: none;
+}
+.nav-item a {
+    padding: 10px;
+    margin: 5px;
+}
+.collapse >ul>li>a:hover{
+    background-color: goldenrod;
+    color: black !important;}
+video {
+    object-fit: cover;
+    width: 99vw;
+    height: 90vh;
+    margin-top: 50px;
+}
+  
+#contents{ 
+    padding-top: 2cm;
+    padding-left: 5cm;
+    height: 40em;
+    font-size: x-large;
+    color: black;
+    background-color: lavender;
+}
+   
+#dist_img{
+    height: 10em;
+    float: right;
+}
+.card{
+    margin-top: 5em;
+    border: 15px solid white;
+    padding: 5px;
+    background-color: goldenrod;
+}
+.card-body h5 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.card-body a{
+    color: darkred;
+}
+.card-body p {
+    text-align: justify;
+}
+footer{
+    height: 5em;
+}
+.heading h1{
+    background-color: lightcoral;
+    text-align: center;
+    height: 3em;
+    padding-top: 30px;
+}
+#ksd{
+    background-color: lightgray;
+}
+.my_login{
+    margin-left: 15cm;
+    margin-right: 15cm;
+    margin-top: 3cm;
+    border: 2px solid white;
+    background-color: goldenrod;
+    padding: 10px;
+    height: 30em;
+}
+.my_login button{
+background-color: brown;
+border: brown;
+}
+.my_login a{color: brown;}
+.signup{
+    margin-left: 10cm;
+    margin-right: 10cm;
+    margin-top: 1cm;
+    border: 2px solid white;
+    background-color: lightblue;
+    padding: 10px;
+    height: 40em;
+}
+.signup button{
+background-color: navy
+}
+.signup a{color: navy;}
